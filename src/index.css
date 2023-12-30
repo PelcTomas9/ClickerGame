@@ -1,0 +1,61 @@
+html { 
+  background: url(./img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#player {
+  width: 35vw;
+  height: auto;
+}
+
+h1.menu {
+  font-size: 5vw;
+}
+
+h2.menu {
+  font-size: 2.5vw;
+}
+
+h3.menu {
+  font-size: 1.8vw;
+}
+
+div.buttons {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+button {
+  font-family: 'Material Symbols Outlined', sans-serif;
+  background-color: transparent;
+  text-align: center;
+  align-content: center;
+  border: transparent;
+  font-size: 100%;
+  cursor: pointer;
+}
+
+img.weapon {
+  margin-top: 2vw;
+  width: 15vw;
+  height: auto;
+  padding: 1vw;
+}
+
+.weapon-container {
+  display: flex;
+  justify-content: space-around;
+}
