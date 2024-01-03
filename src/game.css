@@ -15,6 +15,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     }
 
+* {
+        font-weight: 800;
+}
+
 #clicker-container {
     margin-top: 50px;
     position: relative;
